@@ -13,6 +13,7 @@ textarea {
     margin-bottom: 10px;
     border: 1px solid #2b4a64;
     padding: 5px;
+    outline: none;
 }
 
 input[type="radio"],
@@ -49,3 +50,11 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: #46e881;
 }
+
+/* input[type=text]:focus {
+    border: 3px solid green;
+  } */
+
+  /* input[type=text] {
+    outline: none;
+  } */
